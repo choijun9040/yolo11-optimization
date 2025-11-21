@@ -101,9 +101,6 @@ pip install tqdm
 
 <img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/ea3231a4-f8de-4e2b-86f9-0504e1681a62" />
 
-* `*` means that it is from original repository, see reference
-* In the official YOLOv11 code, mask annotation information is used, which leads to higher performance
-
 
 
 #### Reference
