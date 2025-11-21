@@ -6,6 +6,28 @@ ARM Ethos-N을 위한 YOLO11의 NPU 인지형 최적화 파이프라인 구축
 
 ![Image](https://github.com/user-attachments/assets/120f9eea-83a8-4781-befd-034314ec138c)
 
+### Dataset structure
+
+    ├── MyFirstProject 
+        ├── images
+            ├── train
+                ├── 1111.jpg
+                ├── 2222.jpg
+            ├── val2017
+                ├── 1111.jpg
+                ├── 2222.jpg
+        ├── labels
+            ├── train
+                ├── 1111.txt
+                ├── 2222.txt
+            ├── val
+                ├── 1111.txt
+                ├── 2222.txt
+        ├── train.txt           # Path to train images  e.g, images/train/1111.jpg
+        ├── val.txt             # Path to val images    e.g, images/val/1111.jpg   
+        ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
+        
+
 ### Installation
 
 ```
@@ -67,14 +89,12 @@ pip install tqdm
 
 ### Results
 
-| Version  | Epochs | Box mAP |                                                                              Download |
-|:-------: |:------:|--------:|--------------------------------------------------------------------------------------:|
-|  v11_n   |  600   |    38.6 |                                                            [Model](./weights/best.pt) |
-| v11_n*   |   -    |    39.2 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_n.pt) |
-| v11_s*   |   -    |    46.5 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_s.pt) |
-| v11_m*   |   -    |    51.2 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_m.pt) |
-| v11_l*   |   -    |    53.0 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_l.pt) |
-| v11_x*   |   -    |    54.3 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_x.pt) |
+| Model     |  mAP@50   |                                                                              Download |
+|:-------:  |:-------:  |--------------------------------------------------------------------------------------:|
+|  Pytorch  |    94.9%  |                                                            [Model](./weights/best.pt) |
+|Pytorch_qat|    95.7%  | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_n.pt) |
+| onnx      |   -       |    46.5 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_s.pt) |
+| tflite    |   94.8%   |    51.2 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_m.pt) |
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.386
@@ -94,26 +114,7 @@ pip install tqdm
 * `*` means that it is from original repository, see reference
 * In the official YOLOv11 code, mask annotation information is used, which leads to higher performance
 
-### Dataset structure
 
-    ├── MyFirstProject 
-        ├── images
-            ├── train
-                ├── 1111.jpg
-                ├── 2222.jpg
-            ├── val2017
-                ├── 1111.jpg
-                ├── 2222.jpg
-        ├── labels
-            ├── train
-                ├── 1111.txt
-                ├── 2222.txt
-            ├── val
-                ├── 1111.txt
-                ├── 2222.txt
-        ├── train.txt           # Path to train images  e.g, images/train/1111.jpg
-        ├── val.txt             # Path to val images    e.g, images/val/1111.jpg   
-        ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
 
 #### Reference
 
