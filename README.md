@@ -95,11 +95,11 @@ pip install tqdm
 |   ONNX    |     -     |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/onnx_best.onnx)    |
 |  TFLite   |   94.8%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
 
-<img width="300" height="200" alt="Image" src="https://github.com/user-attachments/assets/ef29d97a-0a51-4348-a3d4-85f9e16b12ff" />
+<img width="250" height="200" alt="Image" src="https://github.com/user-attachments/assets/ef29d97a-0a51-4348-a3d4-85f9e16b12ff" />
 
-<img width="300" height="200" alt="Image" src="https://github.com/user-attachments/assets/a8f4bc12-4f84-4203-87eb-b01caa7381c7" />
+<img width="250" height="200" alt="Image" src="https://github.com/user-attachments/assets/a8f4bc12-4f84-4203-87eb-b01caa7381c7" />
 
-<img width="300" height="200" alt="Image" src="https://github.com/user-attachments/assets/ea3231a4-f8de-4e2b-86f9-0504e1681a62" />
+<img width="250" height="200" alt="Image" src="https://github.com/user-attachments/assets/ea3231a4-f8de-4e2b-86f9-0504e1681a62" />
 
 * `*` means that it is from original repository, see reference
 * In the official YOLOv11 code, mask annotation information is used, which leads to higher performance
