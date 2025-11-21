@@ -105,8 +105,9 @@ pip install tqdm
 <img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/ea3231a4-f8de-4e2b-86f9-0504e1681a62" />
 
 #### Detection Reulst
+![Image](https://github.com/user-attachments/assets/58922870-f658-434e-8d77-3c5c1e29f3f8)
 
-#### Reference
+### Reference
 
 * https://github.com/ultralytics/ultralytics
-* https://github.com/jahongir7174/YOLOv8-pt
+* https://github.com/jahongir7174/YOLOv11-pt
