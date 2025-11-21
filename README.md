@@ -39,55 +39,43 @@ pip install tqdm
         ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
 
 ### Training
-
 * Configure your dataset path in `main.py` for training
 * Run `bash main.sh $ --train` for training, `$` is number of GPUs
 
 ### Testing
-
 * Configure your dataset path in `main.py` for testing
 * Run `python main.py --test` for testing
 
 ### Quantization-Aware Training (QAT)
-
 * Configure your dataset path in `main.py` for training
 * Run `python main.py --train --qat` for quantization-aware training
 
 ### Testing (QAT)
-
 * Configure your dataset path in `main.py` for testing
 * Run `python main.py --test --qat` for testing the QAT model
 
 ### PyTorch to ONNX
-
 * Run `python pt2onnx.py` for exporting the PyTorch model to ONXN format
 
 ### ONNX to TFLite
-
 * Run `python onnx2tflite.py` for converting the ONNX model to INT8 TFLite format
 
 ### Testing (TFLite)
-
 * Run `python test_tflite.py` for testing the INT8 quantized TFLite model
 
 ### Model Compilation by TVM tool
-
 * Compile the TFLite model to generate a `.tar` model archive for deployment on the D5 board
 
 ### JPG to NPZ
-
 * Run `jpg2npz.py` for converting input JPG images to NPZ format for deployment on the D5 board
 
 ### RTVM inference
-
 * Deploy the `.tar` model archive and `.npz` inputs to the D5 board to run inference and save the results as an output `.npz` file.
 
 ### Post-processing and Visualization
-
 * Run `run_postprocess.py` for post-processing the output `.npz` file and visualizing the inference results
 
 ### Results
-
 #### mAP@50
 | Model     |  mAP@50   |                                                                              Download                 |
 |:-------:  |:-------:  |:--------------------------------------------------------------------------------------:                |
