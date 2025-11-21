@@ -73,7 +73,7 @@ pip install tqdm
 * Deploy the `.tar` model archive and `.npz` inputs to the D5 board to run inference and save the results as an output `.npz` file.
 
 ### Post-processing and Visualization
-* Run `run_postprocess.py` for post-processing the output `.npz` file and visualizing the inference results
+* Run `postprocess.py` for post-processing the output `.npz` file and visualizing the inference results
 
 ### Results
 #### mAP@50
