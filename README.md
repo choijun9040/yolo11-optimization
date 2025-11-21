@@ -72,6 +72,9 @@ pip install tqdm
 ### RTVM inference
 * Deploy the `.tar` model archive and `.npz` inputs to the D5 board to run inference and save the results as an output `.npz` file.
 
+### Testing (Output of RTVM inference)
+* Run `eval_output_npz.py` for testing the accuracy of the output `.npz` files
+
 ### Post-processing and Visualization
 * Run `postprocess.py` for post-processing the output `.npz` file and visualizing the inference results
 
