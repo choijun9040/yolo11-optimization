@@ -6,6 +6,17 @@ ARM Ethos-N을 위한 YOLO11의 NPU 인지형 최적화 파이프라인 구축
 
 ![Image](https://github.com/user-attachments/assets/120f9eea-83a8-4781-befd-034314ec138c)
 
+### Installation
+
+```
+conda create -n YOLO python=3.10.10
+conda activate YOLO
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install opencv-python
+pip install PyYAML
+pip install tqdm
+```
+
 ### Dataset structure
 
     ├── MyFirstProject 
@@ -26,18 +37,6 @@ ARM Ethos-N을 위한 YOLO11의 NPU 인지형 최적화 파이프라인 구축
         ├── train.txt           # Path to train images  e.g, images/train/1111.jpg
         ├── val.txt             # Path to val images    e.g, images/val/1111.jpg   
         ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
-        
-
-### Installation
-
-```
-conda create -n YOLO python=3.10.10
-conda activate YOLO
-conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
-pip install opencv-python
-pip install PyYAML
-pip install tqdm
-```
 
 ### Training
 
