@@ -89,7 +89,6 @@ pip install tqdm
 ### Results
 
 #### mAP@50
-
 | Model     |  mAP@50   |                                                                              Download                 |
 |:-------:  |:-------:  |:--------------------------------------------------------------------------------------:                |
 |  PyTorch  |   94.9%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_best.pt)      |
@@ -108,6 +107,5 @@ pip install tqdm
 ![Image](https://github.com/user-attachments/assets/58922870-f658-434e-8d77-3c5c1e29f3f8)
 
 ### Reference
-
 * https://github.com/ultralytics/ultralytics
 * https://github.com/jahongir7174/YOLOv11-pt
