@@ -89,7 +89,7 @@ pip install tqdm
 ### Results
 
 | Model     |  mAP@50   |                                                                              Download                 |
-|:-------:  |:-------:  |--------------------------------------------------------------------------------------:                |
+|:-------:  |:-------:  |:--------------------------------------------------------------------------------------:                |
 |  PyTorch  |   94.9%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_best.pt)      |
 |PyTorch_QAT|   95.7%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_qat_best.pt)  |
 |   ONNX    |     -     |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/onnx_best.onnx)    |
