@@ -88,12 +88,12 @@ pip install tqdm
 
 ### Results
 
-| Model     |  mAP@50   |                                                                              Download |
-|:-------:  |:-------:  |--------------------------------------------------------------------------------------:|
-|  Pytorch  |    94.9%  |                                                            [Model](./weights/best.pt) |
-|Pytorch_qat|    95.7%  | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_n.pt) |
-| onnx      |   -       |    46.5 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_s.pt) |
-| tflite    |   94.8%   |    51.2 | [Model](https://github.com/jahongir7174/YOLOv11-pt/releases/download/v0.0.1/v11_m.pt) |
+| Model     |  mAP@50   |                                                                              Download                 |
+|:-------:  |:-------:  |--------------------------------------------------------------------------------------:                |
+|  Pytorch  |   94.9%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_best.pt)      |
+|Pytorch_qat|   95.7%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_qat_best.pt)  |
+| onnx      |     -     |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/onnx_best.onnx)    |
+| tflite    |   94.8%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
 
 ```
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.386
