@@ -2,7 +2,12 @@
 Script to post-process NPZ files (raw model outputs) and evaluate them against GT
 """
 
+import sys
 import os
+sys.path.insert(0,
+os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 import numpy as np
 import torch
 import yaml
