@@ -4,7 +4,7 @@
 
 ARM Ethos-N을 위한 YOLO11의 NPU 인지형 최적화 파이프라인 구축
 
-![Image](https://github.com/user-attachments/assets/120f9eea-83a8-4781-befd-034314ec138c)
+![Image](https://github.com/user-attachments/assets/c86df08e-29d9-4fc4-8ef3-41512a5ba2ba)
 
 ### Installation
 
