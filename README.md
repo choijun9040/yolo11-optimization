@@ -80,12 +80,12 @@ pip install tqdm
 
 ### Results
 #### mAP@50
-| Model     |  mAP@50   |                                                                              Download                 |
-|:-------:  |:-------:  |:--------------------------------------------------------------------------------------:               |
-|  PyTorch  |   94.9%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_best.pt)      |
-|PyTorch_QAT|   95.7%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_qat_best.pt)  |
-|   ONNX    |     -     |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/onnx_best.onnx)    |
-|  TFLite   |   94.8%   |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
+| Model     |  mAP@50   |Params size (MB)|                                                                              Download                 |
+|:-------:  |:-------:  |:-------------: |:--------------------------------------------------------------------------------------:               |
+|  PyTorch  |   94.9%   |      12.0      |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_best.pt)      |
+|PyTorch_QAT|   95.7%   |      12.0      |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/fp32_qat_best.pt)  |
+|   ONNX    |     -     |      11.0      |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/onnx_best.onnx)    |
+|  TFLite   |   94.8%   |      3.0       |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
 
 #### Precision-Recall curve
 <img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/ef29d97a-0a51-4348-a3d4-85f9e16b12ff" />
