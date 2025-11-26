@@ -39,6 +39,8 @@ pip install tqdm
         ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
 
 ### Workflow
+---
+
 #### Training
 * Configure your dataset path in `main.py` for training
 * Run `bash main.sh $ --train` for training, `$` is number of GPUs
