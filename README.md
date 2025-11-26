@@ -38,44 +38,45 @@ pip install tqdm
         ├── val.txt             # Path to val images    e.g, images/val/1111.jpg   
         ├── test.txt            # Path to test images   e.g, images/test/1111.jpg
 
-### Training
+### Workflow
+#### Training
 * Configure your dataset path in `main.py` for training
 * Run `bash main.sh $ --train` for training, `$` is number of GPUs
 
-### Testing
+#### Testing
 * Configure your dataset path in `main.py` for testing
 * Run `python main.py --test` for testing
 
-### Quantization-Aware Training (QAT)
+#### Quantization-Aware Training (QAT)
 * Configure your dataset path in `main.py` for training
 * Run `python main.py --train --qat` for quantization-aware training
 
-### Testing (QAT)
+#### Testing (QAT)
 * Configure your dataset path in `main.py` for testing
 * Run `python main.py --test --qat` for testing the QAT model
 
-### PyTorch to ONNX
+#### PyTorch to ONNX
 * Run `python pt2onnx.py` for exporting the PyTorch model to ONXN format
 
-### ONNX to TFLite
+#### ONNX to TFLite
 * Run `python onnx2tflite.py` for converting the ONNX model to INT8 TFLite format
 
-### Testing (TFLite)
+#### Testing (TFLite)
 * Run `python test_tflite.py` for testing the INT8 quantized TFLite model
 
-### Model Compilation by TVM tool
+#### Model Compilation by TVM tool
 * Compile the TFLite model to generate a `.tar` model archive for deployment on the D5 board
 
-### JPG to NPZ
+#### JPG to NPZ
 * Run `jpg2npz.py` for converting input JPG images to NPZ format for deployment on the D5 board
 
-### RTVM inference
+#### RTVM inference
 * Deploy the `.tar` model archive and `.npz` inputs to the D5 board to run inference and save the results as an output `.npz` file.
 
-### Testing (Output of RTVM inference)
+#### Testing (Output of RTVM inference)
 * Run `eval_output_npz.py` for testing the accuracy of the output `.npz` files
 
-### Post-processing and Visualization
+#### Post-processing and Visualization
 * Run `postprocess.py` for post-processing the output `.npz` file and visualizing the inference results
 
 ### Results
