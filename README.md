@@ -87,9 +87,7 @@ pip install tqdm
 |  TFLite   |   94.8%   |      3.0       |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
 
 ### Precision-Recall curve
-<img width="270" height="180" alt="Image" src="assets/PyTorch_PR_curve.png" />  
-<img width="270" height="180" alt="Image" src="assets/PyTorch_QAT_PR_cruve.png" />
-<img width="270" height="180" alt="Image" src="assets/TFLite_PR_curve.png" />
+<img width="270" height="180" alt="Image" src="assets/PyTorch_PR_curve.png" /> <img width="270" height="180" alt="Image" src="assets/PyTorch_QAT_PR_cruve.png" /> <img width="270" height="180" alt="Image" src="assets/TFLite_PR_curve.png" />
 
 ### mAP@50(Output of RTVM inference)
 <img width="600" height="440" alt="Image" src="assets/Output_of_RTVM_inference.png" />
