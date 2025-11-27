@@ -88,9 +88,7 @@ pip install tqdm
 
 ### Precision-Recall curve
 <img width="270" height="180" alt="Image" src="assets/PyTorch_PR_curve.png" />
-
 <img width="270" height="180" alt="Image" src="assets/PyTorch_QAT_PR_cruve.png" />
-
 <img width="270" height="180" alt="Image" src="assets/TFLite_PR_curve.png" />
 
 ### mAP@50(Output of RTVM inference)
