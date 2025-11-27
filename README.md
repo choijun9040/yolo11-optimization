@@ -4,7 +4,7 @@
 
 ARM Ethos-N을 위한 YOLO11의 NPU 인지형 최적화 파이프라인 구축
 
-![Image](https://github.com/user-attachments/assets/0ff3ce14-3876-48b8-af9a-13a8f55730c4)
+![Image](assets/diagram.jpg)
 
 ## Installation
 ```
@@ -87,17 +87,17 @@ pip install tqdm
 |  TFLite   |   94.8%   |      3.0       |[Model](https://github.com/choijun9040/yolo11-optimization/releases/download/v0.0.1/int8_best.tflite)  |
 
 ### Precision-Recall curve
-<img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/ef29d97a-0a51-4348-a3d4-85f9e16b12ff" />
+<img width="270" height="180" alt="Image" src="assets/PyTorch_PR_curve.png" />
 
-<img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/a8f4bc12-4f84-4203-87eb-b01caa7381c7" />
+<img width="270" height="180" alt="Image" src="assets/PyTorch_QAT_PR_cruve.png" />
 
-<img width="270" height="180" alt="Image" src="https://github.com/user-attachments/assets/ea3231a4-f8de-4e2b-86f9-0504e1681a62" />
+<img width="270" height="180" alt="Image" src="assets/TFLite_PR_curve.png" />
 
 ### mAP@50(Output of RTVM inference)
-<img width="600" height="440" alt="Image" src="https://github.com/user-attachments/assets/e97b91a2-6aeb-424c-8543-6d87449362dd" />
+<img width="600" height="440" alt="Image" src="assets/Output_of_RTVM_inference.png" />
 
 ### Detection Visualization Reulst
-![Image](https://github.com/user-attachments/assets/58922870-f658-434e-8d77-3c5c1e29f3f8)
+![Image](assets/Detection_Visualization_Result.jpg)
 
 
 ## Reference
